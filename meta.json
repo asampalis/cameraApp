@@ -22,8 +22,8 @@
                     "updatedAt": "2023-09-11T14:05:12.160Z",
                     "__v": 0,
                     "id": "650cdd5bb41f1d604bd1640a",
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cd5f9e1206283202ccf9/projects/650cdd5bb41f1dcf31d16408/assets/650cdd5bb41f1d604bd1640a?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231211%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231211T081345Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=3dcec2beeb3b2eed7ed30d3d35cdb07f726f1ae1e0d9435f420c3a6c7c0797178adcd13912c4cf92b374f203f4e707933322c7495a5c0cada3c237324d205739cb2a681e4bdf40e557b1ec886a10ad54e630e4c3bb0c84b2be60221b2d800e054c88457b28d63a886ecaa160e59cca7f6c42a47bbf2d4e821b754926f4fc1f7e6df9dc5e58309198438c13f797bb979dd799d4d4f920cbd33afebf502aec38e28892bd97b9764200e3083f53d3671c581b5e9af2150fc07fcc50db825389ff73ad06826f22626031a93a928e42ef953aefc917032df7c08af553a131075142fe60533897f2c08064249a1a69f0c303587573ade16cd427dfa25d1717bd882b8f",
-                    "signedUrlExpirationTime": 1702455225496
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cd5f9e1206283202ccf9/projects/650cdd5bb41f1dcf31d16408/assets/650cdd5bb41f1d604bd1640a?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231212%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231212T082729Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=47fae035a6e920e4c09ad9c463f1806b91250bdae1edf80b99d1ab093e3bd336a2b47fe59cfcf57485534e9f0357fd81afc892b0cbddb48675baa442ad1875400ddfdb3941810901720ca7663d4d0ed485379d2cc1ee177bcfdc2f71902df9a0df3ad049757cea5ee42e2974e4b4168ef736fe1196a8d46669f5617c0c62400664c2b76b73031a5cb92d3040a7e2f3845ce2900350c9d3cefb3ed870e4580176e1921a79e0f6cff70876734360944c10be8af72170080391ebd980c76c5dfd19858ec1fe6926ef444fe8f1e8b92130cfe0de59f113d7cd8084c54fe68980994affadb2e6611f4731da591b5fed7b6af0ea7b3654ab189f5bea8551327a456b00",
+                    "signedUrlExpirationTime": 1702542449723
                 }
             },
             "backendUpgradeVersion": 23,
@@ -36,14 +36,14 @@
                         ],
                         "ios": [
                             {
-                                "name": "NSCameraUsageDescription",
-                                "label": "Camera",
-                                "hint": "Describe why your app uses the camera."
-                            },
-                            {
                                 "name": "NSPhotoLibraryUsageDescription",
                                 "label": "Photos",
                                 "hint": "Describe why your app uses photos."
+                            },
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
                             }
                         ]
                     },
@@ -70,6 +70,9 @@
                                 "hint": "Describe why your app uses the microphone."
                             }
                         ]
+                    },
+                    "enabledFeatures": {
+                        "iap": false
                     }
                 },
                 "cac208f4-da31-4916-bb43-3f0fb0b8138e": {
@@ -102,7 +105,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "Camera App copy1",
+            "projectName": "Camera App 2.0",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -136,7 +139,7 @@
                     "ios": {
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
-                            "NSPhotoLibraryUsageDescription": ""
+                            "NSMicrophoneUsageDescription": ""
                         }
                     }
                 },
@@ -185,7 +188,7 @@
                     "ios": {
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
-                            "NSPhotoLibraryUsageDescription": ""
+                            "NSMicrophoneUsageDescription": ""
                         }
                     }
                 },
@@ -213,7 +216,13 @@
             "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
-            "variables": {},
+            "variables": {
+                "878d5ce5-db0a-4271-943c-1987c264212f": {
+                    "scope": "APP",
+                    "name": "VoiceHelp",
+                    "screenId": "cac208f4-da31-4916-bb43-3f0fb0b8138e"
+                }
+            },
             "defaultDesignerDevice": "PHONE",
             "defaultDesignerOrientation": "PORTRAIT",
             "schemaVersion": 2,

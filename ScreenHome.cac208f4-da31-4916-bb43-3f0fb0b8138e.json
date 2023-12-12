@@ -1,4 +1,5 @@
 {
+    "id": "cac208f4-da31-4916-bb43-3f0fb0b8138e",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -51,7 +52,7 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Take Videos",
+                "Text": "Activate Voice Assistance",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
@@ -60,9 +61,9 @@
                 "Width": 311,
                 "Visible": true,
                 "X": 32,
-                "Y": 525,
+                "Y": 569,
                 "RelativeX": 32,
-                "RelativeY": 525,
+                "RelativeY": 569,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -93,7 +94,61 @@
                 "Disabled": false,
                 "ParentId": "cac208f4-da31-4916-bb43-3f0fb0b8138e",
                 "position": "absolute",
-                "edgeOffsets": 525
+                "edgeOffsets": 569
+            },
+            "children": [],
+            "id": "3004de23-7664-4061-b9bf-300c57259599",
+            "thunkableVersion": 435,
+            "bindings": null,
+            "name": "VoiceHelpButton"
+        },
+        {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Take Videos",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "CustomFont": "",
+                "BackgroundColor": "rgba(144, 19, 254, 1)",
+                "Height": 49,
+                "Width": 311,
+                "Visible": true,
+                "X": 32,
+                "Y": 500,
+                "RelativeX": 32,
+                "RelativeY": 500,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "41.46666666666667%",
+                    "top": "77.96101949025487%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "cac208f4-da31-4916-bb43-3f0fb0b8138e",
+                "position": "absolute",
+                "edgeOffsets": 500
             },
             "children": [],
             "id": "a449a32d-078e-49e1-86f6-69fbf19b3dbe",
@@ -268,7 +323,6 @@
             "name": "Image2"
         }
     ],
-    "id": "cac208f4-da31-4916-bb43-3f0fb0b8138e",
     "thunkableVersion": 420,
     "name": "ScreenHome"
 }
